@@ -117,26 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ImagenMaximizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAE1JREFUSEtj
-        GAVkg8ePH/8HYSgXJyBWHQYYmhbAFCNjqBROQJIekhRDATl6RsEoGNGAnExDkh6SFEMBOXrAgFjFJBmK
-        DIa+BaMAAhgYADTw6gEV83FcAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="ImagenMinmizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACtJREFUSEvt
-        y7kNAAAIw8Dsv2YGgYYSiaf2SS4tAHiyHZ9qn3XzptoB4EZKnD9mYZ/odHIAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="ImagenClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAI1JREFUSEvt
-        lDsOgCAQRCm9/wUpOISlOsksEQLugtAoLzG6n3loo1v8FO/9FkLYWapcuwcyLHUgR8hyCPdMuwkIaEHO
-        2+UCgjUB+/1yAYJcxPq9XIBIhLyPkwtT5eAmn/L2Ucxr3CGUJUI8570uKCmK0KvNTDD8KMBM2ynCkCmI
-        HetupONn1/YFiy/h3AkSYw4fIi+5xgAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>
