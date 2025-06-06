@@ -1,13 +1,14 @@
 ﻿Public Class Form1
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        MessageBox.Show("hola mundo")
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Close_Click(sender As Object, e As EventArgs) Handles ImagenClose.Click
         Me.Close()
     End Sub
 
-    Private Sub kkkkkk_Click(sender As Object, e As EventArgs) Handles kkkkkk.Click
-        s
+    Private Sub Maximizar_Click(sender As Object, e As EventArgs) Handles ImagenMaximizar.Click
+
+    End Sub
+
+    Private Sub Minimizar_Click(sender As Object, e As EventArgs) Handles ImagenMinmizar.Click
+        Me.WindowState = FormWindowState.Minimized
+        Me.ShowInTaskbar = True
     End Sub
 End Class
