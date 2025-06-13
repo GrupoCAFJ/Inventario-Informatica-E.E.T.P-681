@@ -86,6 +86,36 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="inventariomedioteca.Designer.vb">
+      <DependentUpon>inventariomedioteca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventariomedioteca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventariosalaeste.Designer.vb">
+      <DependentUpon>inventariosalaeste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventariosalaeste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventariosalanorte.Designer.vb">
+      <DependentUpon>inventariosalanorte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventariosalanorte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventariosalavirgi.Designer.vb">
+      <DependentUpon>inventariosalavirgi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventariosalavirgi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventariosum.Designer.vb">
+      <DependentUpon>inventariosum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventariosum.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -108,6 +138,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventariomedioteca.resx">
+      <DependentUpon>inventariomedioteca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventariosalaeste.resx">
+      <DependentUpon>inventariosalaeste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventariosalanorte.resx">
+      <DependentUpon>inventariosalanorte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventariosalavirgi.resx">
+      <DependentUpon>inventariosalavirgi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventariosum.resx">
+      <DependentUpon>inventariosum.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

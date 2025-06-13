@@ -15,4 +15,8 @@
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
 
     End Sub
+
+    Private Sub cargardatos_Click(sender As Object, e As EventArgs) Handles cargardatos.Click
+
+    End Sub
 End Class
