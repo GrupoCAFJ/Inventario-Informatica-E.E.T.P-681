@@ -16,3 +16,21 @@ C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inven
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalanorte.resources
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalavirgi.resources
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosum.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.exe.config
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.exe
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.pdb
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.AssemblyReference.cache
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.Form1.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariogeneral.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariomedioteca.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalaeste.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalanorte.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalavirgi.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosum.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.Resources.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.GenerateResource.cache
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.CoreCompileInputs.cache
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.exe
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.pdb
