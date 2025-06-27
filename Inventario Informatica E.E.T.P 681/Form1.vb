@@ -1,4 +1,7 @@
 ﻿Public Class Form1
+
+    'botos de cerrar, minimizar, achicar'
+
     Private Sub Close_Click(sender As Object, e As EventArgs) Handles ImagenClose.Click
         Me.Close()
     End Sub
@@ -7,6 +10,37 @@
 
     End Sub
 
+    Private Sub Minimizar_Click(sender As Object, e As EventArgs) Handles ImagenMinmizar.Click
+        Me.WindowState = FormWindowState.Minimized
+        Me.ShowInTaskbar = True
+    End Sub
+
+
+    'Contormo de los botones'
+    Private Sub close_mouseenter(sender As Object, e As EventArgs) Handles ImagenClose.MouseEnter
+        ImagenClose.BackColor = Color.FromArgb(255, 128, 128)
+    End Sub
+    Private Sub close_mouseleave(sender As Object, e As EventArgs) Handles ImagenClose.MouseLeave
+        ImagenClose.BackColor = Color.FromArgb(22, 71, 115)
+    End Sub
+
+    Private Sub maximizar_mouseenter(sender As Object, e As EventArgs) Handles ImagenMaximizar.MouseEnter
+        ImagenMaximizar.BackColor = Color.FromArgb(64, 64, 64)
+    End Sub
+    Private Sub maximizar_mouseleave(sender As Object, e As EventArgs) Handles ImagenMaximizar.MouseLeave
+        ImagenMaximizar.BackColor = Color.FromArgb(22, 71, 115)
+    End Sub
+
+    Private Sub minimizar_mouseenter(sender As Object, e As EventArgs) Handles ImagenMinmizar.MouseEnter
+        ImagenMinmizar.BackColor = Color.FromArgb(128, 255, 128)
+    End Sub
+    Private Sub minimizar_mouseleave(sender As Object, e As EventArgs) Handles ImagenMinmizar.MouseLeave
+        ImagenMinmizar.BackColor = Color.FromArgb(22, 71, 115)
+    End Sub
+
+    '-----------------------------------------------------------------------------------------------------------'
+
+    'Ocultar el menu/mostrar el menu'
     Private Sub hidenSubmenu()
         InventarioSubMenu.Visible = False
     End Sub
@@ -20,6 +54,9 @@
         End If
     End Sub
 
+    '------------------------------------------------------------------------------------------------------------------------------'
+
+    'Formulario hijo'
     Private Sub openform(formhijo As Form)
         logoEscuela1.Visible = False
         For Each contr As Control In Panel4.Controls.OfType(Of Form)().ToList()
@@ -36,22 +73,7 @@
         End With
     End Sub
 
-    Private Sub Minimizar_Click(sender As Object, e As EventArgs) Handles ImagenMinmizar.Click
-        Me.WindowState = FormWindowState.Minimized
-        Me.ShowInTaskbar = True
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
-
-    Private Sub cargardatos_Click(sender As Object, e As EventArgs) Handles cargardatos.Click
-
-    End Sub
-
-    Private Sub Panel4_Paint(sender As Object, e As PaintEventArgs) Handles Panel4.Paint
-
-    End Sub
+    '------------------------------------------------------------------------------------------------------------------------------'
 
     Private Sub ver_Click(sender As Object, e As EventArgs) Handles ver.Click
         showSubmenu(InventarioSubMenu)
@@ -65,6 +87,10 @@
     End Sub
 
     Private Sub verinventariogeneral_Click(sender As Object, e As EventArgs) Handles verinventariogeneral.Click
-
+        Dim verinventariogeneral As New inventariogeneral()
+        verinventariogeneral.FormPadre = Me
+        openform(verinventariogeneral)
+        hidenSubmenu()
     End Sub
+
 End Class

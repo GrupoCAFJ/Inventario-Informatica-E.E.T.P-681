@@ -61,7 +61,7 @@ Partial Class Form1
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1200, 38)
+        Me.Panel1.Size = New System.Drawing.Size(1366, 38)
         Me.Panel1.TabIndex = 0
         '
         'Panel5
@@ -70,7 +70,7 @@ Partial Class Form1
         Me.Panel5.Controls.Add(Me.ImagenMaximizar)
         Me.Panel5.Controls.Add(Me.ImagenMinmizar)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel5.Location = New System.Drawing.Point(1061, 0)
+        Me.Panel5.Location = New System.Drawing.Point(1227, 0)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(139, 38)
         Me.Panel5.TabIndex = 3
@@ -117,22 +117,22 @@ Partial Class Form1
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1200, 720)
+        Me.Panel2.Size = New System.Drawing.Size(1366, 768)
         Me.Panel2.TabIndex = 1
         '
         'Panel4
         '
         Me.Panel4.Controls.Add(Me.logoEscuela1)
-        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(200, 38)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1000, 682)
+        Me.Panel4.Size = New System.Drawing.Size(1166, 730)
         Me.Panel4.TabIndex = 2
         '
         'logoEscuela1
         '
+        Me.logoEscuela1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.logoEscuela1.Image = CType(resources.GetObject("logoEscuela1.Image"), System.Drawing.Image)
-        Me.logoEscuela1.Location = New System.Drawing.Point(378, 250)
+        Me.logoEscuela1.Location = New System.Drawing.Point(461, 274)
         Me.logoEscuela1.Name = "logoEscuela1"
         Me.logoEscuela1.Size = New System.Drawing.Size(245, 183)
         Me.logoEscuela1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -149,7 +149,7 @@ Partial Class Form1
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel3.Location = New System.Drawing.Point(0, 38)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(200, 682)
+        Me.Panel3.Size = New System.Drawing.Size(200, 730)
         Me.Panel3.TabIndex = 1
         '
         'cargardatos
@@ -308,13 +308,16 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.GrayText
-        Me.ClientSize = New System.Drawing.Size(1200, 720)
+        Me.ClientSize = New System.Drawing.Size(1366, 768)
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Form1"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
         CType(Me.ImagenClose, System.ComponentModel.ISupportInitialize).EndInit()
