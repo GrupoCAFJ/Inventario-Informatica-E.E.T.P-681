@@ -73,17 +73,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="menuInventario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="menuInventario.Designer.vb">
+      <DependentUpon>menuInventario.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="inventario.Designer.vb">
+      <DependentUpon>inventario.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="inventario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inventariomedioteca.Designer.vb">
@@ -133,11 +133,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="menuInventario.resx">
+      <DependentUpon>menuInventario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="inventario.resx">
+      <DependentUpon>inventario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inventariomedioteca.resx">
       <DependentUpon>inventariomedioteca.vb</DependentUpon>
