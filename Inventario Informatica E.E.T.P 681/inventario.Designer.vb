@@ -25,7 +25,9 @@ Partial Class inventariogeneral
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(inventariogeneral))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.InventarioG = New System.Windows.Forms.Panel()
+        Me.Panel9 = New System.Windows.Forms.Panel()
         Me.dgvResultados = New System.Windows.Forms.DataGridView()
+        Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
@@ -39,11 +41,11 @@ Partial Class inventariogeneral
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.InventarioG.SuspendLayout()
+        Me.Panel9.SuspendLayout()
         CType(Me.dgvResultados, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel8.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel6.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,8 +54,6 @@ Partial Class inventariogeneral
         Me.Panel5.SuspendLayout()
         Me.Panel7.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel8.SuspendLayout()
-        Me.Panel9.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -63,7 +63,7 @@ Partial Class inventariogeneral
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(800, 450)
+        Me.Panel1.Size = New System.Drawing.Size(1100, 700)
         Me.Panel1.TabIndex = 0
         '
         'InventarioG
@@ -73,8 +73,17 @@ Partial Class inventariogeneral
         Me.InventarioG.Dock = System.Windows.Forms.DockStyle.Fill
         Me.InventarioG.Location = New System.Drawing.Point(0, 118)
         Me.InventarioG.Name = "InventarioG"
-        Me.InventarioG.Size = New System.Drawing.Size(800, 332)
+        Me.InventarioG.Size = New System.Drawing.Size(1100, 582)
         Me.InventarioG.TabIndex = 5
+        '
+        'Panel9
+        '
+        Me.Panel9.Controls.Add(Me.dgvResultados)
+        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel9.Location = New System.Drawing.Point(351, 0)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(749, 582)
+        Me.Panel9.TabIndex = 7
         '
         'dgvResultados
         '
@@ -83,8 +92,17 @@ Partial Class inventariogeneral
         Me.dgvResultados.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvResultados.Location = New System.Drawing.Point(0, 0)
         Me.dgvResultados.Name = "dgvResultados"
-        Me.dgvResultados.Size = New System.Drawing.Size(449, 332)
+        Me.dgvResultados.Size = New System.Drawing.Size(749, 582)
         Me.dgvResultados.TabIndex = 5
+        '
+        'Panel8
+        '
+        Me.Panel8.Controls.Add(Me.Panel4)
+        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel8.Location = New System.Drawing.Point(0, 0)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(351, 582)
+        Me.Panel8.TabIndex = 6
         '
         'Panel4
         '
@@ -144,7 +162,7 @@ Partial Class inventariogeneral
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(800, 118)
+        Me.Panel3.Size = New System.Drawing.Size(1100, 118)
         Me.Panel3.TabIndex = 4
         '
         'Panel2
@@ -169,7 +187,7 @@ Partial Class inventariogeneral
         '
         Me.Panel5.Controls.Add(Me.Panel7)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel5.Location = New System.Drawing.Point(587, 0)
+        Me.Panel5.Location = New System.Drawing.Point(887, 0)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(213, 118)
         Me.Panel5.TabIndex = 5
@@ -178,7 +196,7 @@ Partial Class inventariogeneral
         '
         Me.Panel7.Controls.Add(Me.Label3)
         Me.Panel7.Controls.Add(Me.PictureBox2)
-        Me.Panel7.Location = New System.Drawing.Point(13, 38)
+        Me.Panel7.Location = New System.Drawing.Point(37, 38)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(138, 43)
         Me.Panel7.TabIndex = 5
@@ -211,44 +229,28 @@ Partial Class inventariogeneral
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(265, 346)
+        Me.Button1.Location = New System.Drawing.Point(565, 346)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(115, 31)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Volver "
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Panel8
-        '
-        Me.Panel8.Controls.Add(Me.Panel4)
-        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel8.Location = New System.Drawing.Point(0, 0)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(351, 332)
-        Me.Panel8.TabIndex = 6
-        '
-        'Panel9
-        '
-        Me.Panel9.Controls.Add(Me.dgvResultados)
-        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel9.Location = New System.Drawing.Point(351, 0)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(449, 332)
-        Me.Panel9.TabIndex = 7
-        '
         'inventariogeneral
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1100, 700)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "inventariogeneral"
         Me.Text = "Form2"
         Me.Panel1.ResumeLayout(False)
         Me.InventarioG.ResumeLayout(False)
+        Me.Panel9.ResumeLayout(False)
         CType(Me.dgvResultados, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel8.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         Me.Panel6.ResumeLayout(False)
@@ -258,8 +260,6 @@ Partial Class inventariogeneral
         Me.Panel5.ResumeLayout(False)
         Me.Panel7.ResumeLayout(False)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel9.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

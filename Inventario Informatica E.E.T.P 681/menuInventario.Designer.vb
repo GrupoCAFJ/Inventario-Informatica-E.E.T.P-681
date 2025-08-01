@@ -123,6 +123,7 @@ Partial Class Form1
         'Panel4
         '
         Me.Panel4.Controls.Add(Me.logoEscuela1)
+        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(200, 38)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1166, 730)
