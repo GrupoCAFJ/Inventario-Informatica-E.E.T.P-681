@@ -1,4 +1,10 @@
-﻿Public Class Form1
+﻿Public Class menuinventario
+
+
+
+
+
+
 
     'botos de cerrar, minimizar, achicar'
 
