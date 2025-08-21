@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class menuinventario
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,7 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(menuinventario))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.ImagenClose = New System.Windows.Forms.PictureBox()
@@ -32,7 +32,10 @@ Partial Class Form1
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.logoEscuela1 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.cargardatos = New System.Windows.Forms.Button()
+        Me.SubMenuDatos = New System.Windows.Forms.Panel()
+        Me.Cargar = New System.Windows.Forms.Button()
+        Me.Modificar = New System.Windows.Forms.Button()
+        Me.Datos = New System.Windows.Forms.Button()
         Me.InventarioSubMenu = New System.Windows.Forms.Panel()
         Me.vermedioteca = New System.Windows.Forms.Button()
         Me.versalavirgi = New System.Windows.Forms.Button()
@@ -51,6 +54,7 @@ Partial Class Form1
         Me.Panel4.SuspendLayout()
         CType(Me.logoEscuela1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
+        Me.SubMenuDatos.SuspendLayout()
         Me.InventarioSubMenu.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -133,7 +137,7 @@ Partial Class Form1
         '
         Me.logoEscuela1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.logoEscuela1.Image = CType(resources.GetObject("logoEscuela1.Image"), System.Drawing.Image)
-        Me.logoEscuela1.Location = New System.Drawing.Point(461, 274)
+        Me.logoEscuela1.Location = New System.Drawing.Point(515, 274)
         Me.logoEscuela1.Name = "logoEscuela1"
         Me.logoEscuela1.Size = New System.Drawing.Size(245, 183)
         Me.logoEscuela1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -143,7 +147,8 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Gray
-        Me.Panel3.Controls.Add(Me.cargardatos)
+        Me.Panel3.Controls.Add(Me.SubMenuDatos)
+        Me.Panel3.Controls.Add(Me.Datos)
         Me.Panel3.Controls.Add(Me.InventarioSubMenu)
         Me.Panel3.Controls.Add(Me.ver)
         Me.Panel3.Controls.Add(Me.panel)
@@ -153,19 +158,63 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(200, 730)
         Me.Panel3.TabIndex = 1
         '
-        'cargardatos
+        'SubMenuDatos
         '
-        Me.cargardatos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.cargardatos.FlatAppearance.BorderSize = 0
-        Me.cargardatos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.cargardatos.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cargardatos.Location = New System.Drawing.Point(0, 356)
-        Me.cargardatos.Name = "cargardatos"
-        Me.cargardatos.Size = New System.Drawing.Size(200, 40)
-        Me.cargardatos.TabIndex = 2
-        Me.cargardatos.Text = "Cargar datos"
-        Me.cargardatos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.cargardatos.UseVisualStyleBackColor = True
+        Me.SubMenuDatos.BackColor = System.Drawing.Color.LightGray
+        Me.SubMenuDatos.Controls.Add(Me.Cargar)
+        Me.SubMenuDatos.Controls.Add(Me.Modificar)
+        Me.SubMenuDatos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.SubMenuDatos.Location = New System.Drawing.Point(0, 349)
+        Me.SubMenuDatos.Name = "SubMenuDatos"
+        Me.SubMenuDatos.Size = New System.Drawing.Size(200, 80)
+        Me.SubMenuDatos.TabIndex = 3
+        Me.SubMenuDatos.Visible = False
+        '
+        'Cargar
+        '
+        Me.Cargar.BackColor = System.Drawing.Color.DarkGray
+        Me.Cargar.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Cargar.FlatAppearance.BorderSize = 0
+        Me.Cargar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Cargar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.Cargar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(115, Byte), Integer))
+        Me.Cargar.Location = New System.Drawing.Point(0, 40)
+        Me.Cargar.Name = "Cargar"
+        Me.Cargar.Size = New System.Drawing.Size(200, 41)
+        Me.Cargar.TabIndex = 4
+        Me.Cargar.Text = "Cargar"
+        Me.Cargar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Cargar.UseVisualStyleBackColor = False
+        '
+        'Modificar
+        '
+        Me.Modificar.BackColor = System.Drawing.Color.DarkGray
+        Me.Modificar.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Modificar.FlatAppearance.BorderSize = 0
+        Me.Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Modificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Modificar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(115, Byte), Integer))
+        Me.Modificar.Location = New System.Drawing.Point(0, 0)
+        Me.Modificar.Name = "Modificar"
+        Me.Modificar.Size = New System.Drawing.Size(200, 40)
+        Me.Modificar.TabIndex = 3
+        Me.Modificar.Text = "Modificar"
+        Me.Modificar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Modificar.UseVisualStyleBackColor = False
+        '
+        'Datos
+        '
+        Me.Datos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Datos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Datos.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Datos.ForeColor = System.Drawing.Color.Black
+        Me.Datos.Location = New System.Drawing.Point(0, 309)
+        Me.Datos.Name = "Datos"
+        Me.Datos.Size = New System.Drawing.Size(200, 40)
+        Me.Datos.TabIndex = 3
+        Me.Datos.Text = "Datos"
+        Me.Datos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Datos.UseVisualStyleBackColor = True
         '
         'InventarioSubMenu
         '
@@ -178,7 +227,7 @@ Partial Class Form1
         Me.InventarioSubMenu.Controls.Add(Me.verinventariogeneral)
         Me.InventarioSubMenu.Dock = System.Windows.Forms.DockStyle.Top
         Me.InventarioSubMenu.ForeColor = System.Drawing.SystemColors.AppWorkspace
-        Me.InventarioSubMenu.Location = New System.Drawing.Point(0, 135)
+        Me.InventarioSubMenu.Location = New System.Drawing.Point(0, 88)
         Me.InventarioSubMenu.Name = "InventarioSubMenu"
         Me.InventarioSubMenu.Size = New System.Drawing.Size(200, 221)
         Me.InventarioSubMenu.TabIndex = 2
@@ -287,7 +336,7 @@ Partial Class Form1
         Me.ver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ver.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ver.ForeColor = System.Drawing.Color.Black
-        Me.ver.Location = New System.Drawing.Point(0, 95)
+        Me.ver.Location = New System.Drawing.Point(0, 48)
         Me.ver.Name = "ver"
         Me.ver.Size = New System.Drawing.Size(200, 40)
         Me.ver.TabIndex = 2
@@ -302,10 +351,10 @@ Partial Class Form1
         Me.panel.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.panel.Location = New System.Drawing.Point(0, 0)
         Me.panel.Name = "panel"
-        Me.panel.Size = New System.Drawing.Size(200, 95)
+        Me.panel.Size = New System.Drawing.Size(200, 48)
         Me.panel.TabIndex = 2
         '
-        'Form1
+        'menuinventario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -315,9 +364,9 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Form1"
+        Me.Name = "menuinventario"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "Form1"
+        Me.Text = "menuinventario"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
@@ -328,6 +377,7 @@ Partial Class Form1
         Me.Panel4.ResumeLayout(False)
         CType(Me.logoEscuela1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
+        Me.SubMenuDatos.ResumeLayout(False)
         Me.InventarioSubMenu.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -347,9 +397,12 @@ Partial Class Form1
     Friend WithEvents versalavirgi As Button
     Friend WithEvents versum As Button
     Friend WithEvents versalaeste As Button
-    Friend WithEvents cargardatos As Button
     Friend WithEvents vermedioteca As Button
     Friend WithEvents logoEscuela1 As PictureBox
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel5 As Panel
+    Friend WithEvents Datos As Button
+    Friend WithEvents SubMenuDatos As Panel
+    Friend WithEvents Cargar As Button
+    Friend WithEvents Modificar As Button
 End Class

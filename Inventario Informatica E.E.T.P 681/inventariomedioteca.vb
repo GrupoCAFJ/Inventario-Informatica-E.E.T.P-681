@@ -1,5 +1,5 @@
 ﻿Public Class inventariomedioteca
-    Public Property FormPadre As Form1
+    Public Property FormPadre As menuinventario
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub

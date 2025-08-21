@@ -12,7 +12,7 @@ Public Class inventariogeneral
         adaptador.Fill(tabla)
         dgvResultados.DataSource = tabla
     End Sub
-    Public Property FormPadre As Form1
+    Public Property FormPadre As menuinventario
 
     Private Sub Panel6_Click(sender As Object, e As EventArgs) Handles Panel6.Click
         BuscarEnBaseDeDatos(TextBox1.Text)

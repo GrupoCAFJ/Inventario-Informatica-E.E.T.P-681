@@ -1,19 +1,18 @@
-﻿Public Class menuinventario
+﻿Imports System.Runtime.InteropServices
 
+Public Class menuinventario
 
-
-
-
-
-
-    'botos de cerrar, minimizar, achicar'
-
+    'Botones cerrar, maximizar y minimizar'
     Private Sub Close_Click(sender As Object, e As EventArgs) Handles ImagenClose.Click
         Me.Close()
     End Sub
 
     Private Sub Maximizar_Click(sender As Object, e As EventArgs) Handles ImagenMaximizar.Click
-
+        If Me.WindowState = FormWindowState.Normal Then
+            Me.WindowState = FormWindowState.Maximized
+        Else
+            Me.WindowState = FormWindowState.Normal
+        End If
     End Sub
 
     Private Sub Minimizar_Click(sender As Object, e As EventArgs) Handles ImagenMinmizar.Click
@@ -49,6 +48,7 @@
     'Ocultar el menu/mostrar el menu'
     Private Sub hidenSubmenu()
         InventarioSubMenu.Visible = False
+        SubMenuDatos.Visible = False
     End Sub
 
     Private Sub showSubmenu(submenu As Panel)
@@ -85,18 +85,13 @@
         showSubmenu(InventarioSubMenu)
     End Sub
 
-    Private Sub vermedioteca_Click(sender As Object, e As EventArgs) Handles vermedioteca.Click
-        Dim inventariomedioteca As New inventariomedioteca()
-        inventariomedioteca.FormPadre = Me
-        openform(inventariomedioteca)
-        hidenSubmenu()
-    End Sub
-
-    Private Sub verinventariogeneral_Click(sender As Object, e As EventArgs) Handles verinventariogeneral.Click
+    Private Sub VerInventarioGeneral_Click(sender As Object, e As EventArgs) Handles verinventariogeneral.Click
         Dim verinventariogeneral As New inventariogeneral()
         verinventariogeneral.FormPadre = Me
         openform(verinventariogeneral)
         hidenSubmenu()
     End Sub
-
+    Private Sub CargarDatos_Click(sender As Object, e As EventArgs) Handles Datos.Click
+        showSubmenu(SubMenuDatos)
+    End Sub
 End Class
