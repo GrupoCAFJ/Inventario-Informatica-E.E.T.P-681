@@ -52,3 +52,4 @@ C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventa
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.xml
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.pdb
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.menuinventario.resources
+C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.cargardatos.resources

@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cargardatos.Designer.vb">
+      <DependentUpon>cargardatos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cargardatos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="menuInventario.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="cargardatos.resx">
+      <DependentUpon>cargardatos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menuInventario.resx">
       <DependentUpon>menuInventario.vb</DependentUpon>
     </EmbeddedResource>

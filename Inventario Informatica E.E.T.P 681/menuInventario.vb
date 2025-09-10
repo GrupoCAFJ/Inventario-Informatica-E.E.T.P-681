@@ -20,6 +20,52 @@ Public Class menuinventario
         Me.ShowInTaskbar = True
     End Sub
 
+    ' Arrastre del formulario
+
+    Private mouseDown1 As Boolean = False
+    Private mouseOffset As Point
+
+    ' Evento MouseDown: inicia el arrastre
+    Private Sub Panel1_MouseDown(sender As Object, e As MouseEventArgs) Handles Panel1.MouseDown
+        If Me.WindowState = FormWindowState.Normal Then
+            ReleaseCapture()
+            SendMessage(Me.Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0)
+        End If
+    End Sub
+
+    ' Evento MouseMove: mueve el panel
+    Private Sub Panel1_MouseMove(sender As Object, e As MouseEventArgs) Handles Panel1.MouseMove
+        If mouseDown1 Then
+            Dim newLocation As Point = Panel1.Location
+            newLocation.X += e.X - mouseOffset.X
+            newLocation.Y += e.Y - mouseOffset.Y
+            Panel1.Location = newLocation
+        End If
+    End Sub
+
+    ' Evento MouseUp: termina el arrastre
+    Private Sub Panel1_MouseUp(sender As Object, e As MouseEventArgs) Handles Panel1.MouseUp
+        mouseDown1 = False
+    End Sub
+
+    Private Sub Form1_Resize(sender As Object, e As EventArgs) Handles Me.Resize
+        ' Ejemplo: ajustar el tamaño de un panel manualmente
+        Panel1.Width = Me.Width
+    End Sub
+
+    ' API para simular el arrastre de la ventana
+    <DllImport("user32.dll")>
+    Private Shared Sub ReleaseCapture()
+    End Sub
+
+    <DllImport("user32.dll")>
+    Private Shared Function SendMessage(hWnd As IntPtr, Msg As Integer, wParam As Integer, lParam As Integer) As Integer
+    End Function
+
+    Private Const WM_NCLBUTTONDOWN As Integer = &HA1
+    Private Const HTCAPTION As Integer = 2
+
+    '------------------------------------------------------------------------------------------------------------------------------'
 
     'Contormo de los botones'
     Private Sub close_mouseenter(sender As Object, e As EventArgs) Handles ImagenClose.MouseEnter
@@ -94,4 +140,12 @@ Public Class menuinventario
     Private Sub CargarDatos_Click(sender As Object, e As EventArgs) Handles Datos.Click
         showSubmenu(SubMenuDatos)
     End Sub
+
+    Private Sub Cargar_Click(sender As Object, e As EventArgs) Handles Cargar.Click
+        Dim cargardatos As New cargardatos()
+        cargardatos.FormPadre = Me
+        openform(cargardatos)
+        hidenSubmenu()
+    End Sub
+
 End Class
