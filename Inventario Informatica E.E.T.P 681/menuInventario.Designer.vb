@@ -37,11 +37,6 @@ Partial Class menuinventario
         Me.Modificar = New System.Windows.Forms.Button()
         Me.Datos = New System.Windows.Forms.Button()
         Me.InventarioSubMenu = New System.Windows.Forms.Panel()
-        Me.vermedioteca = New System.Windows.Forms.Button()
-        Me.versalavirgi = New System.Windows.Forms.Button()
-        Me.versum = New System.Windows.Forms.Button()
-        Me.versalaeste = New System.Windows.Forms.Button()
-        Me.versalanorte = New System.Windows.Forms.Button()
         Me.verinventariogeneral = New System.Windows.Forms.Button()
         Me.ver = New System.Windows.Forms.Button()
         Me.panel = New System.Windows.Forms.Panel()
@@ -164,7 +159,7 @@ Partial Class menuinventario
         Me.SubMenuDatos.Controls.Add(Me.Cargar)
         Me.SubMenuDatos.Controls.Add(Me.Modificar)
         Me.SubMenuDatos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.SubMenuDatos.Location = New System.Drawing.Point(0, 349)
+        Me.SubMenuDatos.Location = New System.Drawing.Point(0, 163)
         Me.SubMenuDatos.Name = "SubMenuDatos"
         Me.SubMenuDatos.Size = New System.Drawing.Size(200, 80)
         Me.SubMenuDatos.TabIndex = 3
@@ -205,10 +200,11 @@ Partial Class menuinventario
         'Datos
         '
         Me.Datos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Datos.FlatAppearance.BorderSize = 0
         Me.Datos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Datos.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Datos.ForeColor = System.Drawing.Color.Black
-        Me.Datos.Location = New System.Drawing.Point(0, 309)
+        Me.Datos.Location = New System.Drawing.Point(0, 123)
         Me.Datos.Name = "Datos"
         Me.Datos.Size = New System.Drawing.Size(200, 40)
         Me.Datos.TabIndex = 3
@@ -219,99 +215,14 @@ Partial Class menuinventario
         'InventarioSubMenu
         '
         Me.InventarioSubMenu.BackColor = System.Drawing.Color.LightGray
-        Me.InventarioSubMenu.Controls.Add(Me.vermedioteca)
-        Me.InventarioSubMenu.Controls.Add(Me.versalavirgi)
-        Me.InventarioSubMenu.Controls.Add(Me.versum)
-        Me.InventarioSubMenu.Controls.Add(Me.versalaeste)
-        Me.InventarioSubMenu.Controls.Add(Me.versalanorte)
         Me.InventarioSubMenu.Controls.Add(Me.verinventariogeneral)
         Me.InventarioSubMenu.Dock = System.Windows.Forms.DockStyle.Top
         Me.InventarioSubMenu.ForeColor = System.Drawing.SystemColors.AppWorkspace
         Me.InventarioSubMenu.Location = New System.Drawing.Point(0, 88)
         Me.InventarioSubMenu.Name = "InventarioSubMenu"
-        Me.InventarioSubMenu.Size = New System.Drawing.Size(200, 221)
+        Me.InventarioSubMenu.Size = New System.Drawing.Size(200, 35)
         Me.InventarioSubMenu.TabIndex = 2
         Me.InventarioSubMenu.Visible = False
-        '
-        'vermedioteca
-        '
-        Me.vermedioteca.BackColor = System.Drawing.Color.DarkGray
-        Me.vermedioteca.Dock = System.Windows.Forms.DockStyle.Top
-        Me.vermedioteca.FlatAppearance.BorderSize = 0
-        Me.vermedioteca.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.vermedioteca.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.vermedioteca.ForeColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.vermedioteca.Location = New System.Drawing.Point(0, 180)
-        Me.vermedioteca.Name = "vermedioteca"
-        Me.vermedioteca.Size = New System.Drawing.Size(200, 41)
-        Me.vermedioteca.TabIndex = 3
-        Me.vermedioteca.Text = "Inventario medioteca"
-        Me.vermedioteca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.vermedioteca.UseVisualStyleBackColor = False
-        '
-        'versalavirgi
-        '
-        Me.versalavirgi.BackColor = System.Drawing.Color.DarkGray
-        Me.versalavirgi.Dock = System.Windows.Forms.DockStyle.Top
-        Me.versalavirgi.FlatAppearance.BorderSize = 0
-        Me.versalavirgi.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.versalavirgi.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.versalavirgi.ForeColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.versalavirgi.Location = New System.Drawing.Point(0, 140)
-        Me.versalavirgi.Name = "versalavirgi"
-        Me.versalavirgi.Size = New System.Drawing.Size(200, 40)
-        Me.versalavirgi.TabIndex = 2
-        Me.versalavirgi.Text = "Inventario Sala Virgi"
-        Me.versalavirgi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.versalavirgi.UseVisualStyleBackColor = False
-        '
-        'versum
-        '
-        Me.versum.BackColor = System.Drawing.Color.DarkGray
-        Me.versum.Dock = System.Windows.Forms.DockStyle.Top
-        Me.versum.FlatAppearance.BorderSize = 0
-        Me.versum.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.versum.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.versum.ForeColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.versum.Location = New System.Drawing.Point(0, 105)
-        Me.versum.Name = "versum"
-        Me.versum.Size = New System.Drawing.Size(200, 35)
-        Me.versum.TabIndex = 2
-        Me.versum.Text = "Inventario Sum"
-        Me.versum.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.versum.UseVisualStyleBackColor = False
-        '
-        'versalaeste
-        '
-        Me.versalaeste.BackColor = System.Drawing.Color.DarkGray
-        Me.versalaeste.Dock = System.Windows.Forms.DockStyle.Top
-        Me.versalaeste.FlatAppearance.BorderSize = 0
-        Me.versalaeste.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.versalaeste.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.versalaeste.ForeColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.versalaeste.Location = New System.Drawing.Point(0, 70)
-        Me.versalaeste.Name = "versalaeste"
-        Me.versalaeste.Size = New System.Drawing.Size(200, 35)
-        Me.versalaeste.TabIndex = 2
-        Me.versalaeste.Text = "Inventario Sala Este"
-        Me.versalaeste.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.versalaeste.UseVisualStyleBackColor = False
-        '
-        'versalanorte
-        '
-        Me.versalanorte.BackColor = System.Drawing.Color.DarkGray
-        Me.versalanorte.Dock = System.Windows.Forms.DockStyle.Top
-        Me.versalanorte.FlatAppearance.BorderSize = 0
-        Me.versalanorte.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.versalanorte.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.versalanorte.ForeColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(71, Byte), Integer), CType(CType(115, Byte), Integer))
-        Me.versalanorte.Location = New System.Drawing.Point(0, 35)
-        Me.versalanorte.Name = "versalanorte"
-        Me.versalanorte.Size = New System.Drawing.Size(200, 35)
-        Me.versalanorte.TabIndex = 2
-        Me.versalanorte.Text = "Inventario Sala Norte"
-        Me.versalanorte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.versalanorte.UseVisualStyleBackColor = False
         '
         'verinventariogeneral
         '
@@ -391,13 +302,8 @@ Partial Class menuinventario
     Friend WithEvents Panel3 As Panel
     Friend WithEvents panel As Panel
     Friend WithEvents ver As Button
-    Friend WithEvents versalanorte As Button
     Friend WithEvents InventarioSubMenu As Panel
     Friend WithEvents verinventariogeneral As Button
-    Friend WithEvents versalavirgi As Button
-    Friend WithEvents versum As Button
-    Friend WithEvents versalaeste As Button
-    Friend WithEvents vermedioteca As Button
     Friend WithEvents logoEscuela1 As PictureBox
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel5 As Panel

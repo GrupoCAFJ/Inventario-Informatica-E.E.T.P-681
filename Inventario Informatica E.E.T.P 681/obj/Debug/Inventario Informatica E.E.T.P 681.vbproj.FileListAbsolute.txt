@@ -3,7 +3,6 @@ C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inven
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.pdb
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.xml
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.AssemblyReference.cache
-C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.Form1.resources
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.Resources.resources
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.GenerateResource.cache
 C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.CoreCompileInputs.cache
@@ -53,3 +52,6 @@ C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventa
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.pdb
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.menuinventario.resources
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.cargardatos.resources
+C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.cargardatos.resources
+C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.menuinventario.resources
+C:\Users\Usuario\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.modificar.resources

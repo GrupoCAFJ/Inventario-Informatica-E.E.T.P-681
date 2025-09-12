@@ -148,4 +148,11 @@ Public Class menuinventario
         hidenSubmenu()
     End Sub
 
+
+    Private Sub Modificar_Click(sender As Object, e As EventArgs) Handles Modificar.Click
+        Dim modificar As New modificar()
+        modificar.FormPadre = Me
+        openform(modificar)
+        hidenSubmenu()
+    End Sub
 End Class
