@@ -135,7 +135,7 @@ Partial Class inventariogeneral
         '
         'Label2
         '
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.Label2.Font = New System.Drawing.Font("Raleway", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(0, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(87, 38)
@@ -176,10 +176,10 @@ Partial Class inventariogeneral
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!)
-        Me.Label1.Location = New System.Drawing.Point(135, 38)
+        Me.Label1.Font = New System.Drawing.Font("Raleway Medium", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(109, 38)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(194, 43)
+        Me.Label1.Size = New System.Drawing.Size(242, 55)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Inventario"
         '
@@ -203,7 +203,7 @@ Partial Class inventariogeneral
         '
         'Label3
         '
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
+        Me.Label3.Font = New System.Drawing.Font("Raleway", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(95, 43)

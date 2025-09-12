@@ -132,9 +132,9 @@ Partial Class menuinventario
         '
         Me.logoEscuela1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.logoEscuela1.Image = CType(resources.GetObject("logoEscuela1.Image"), System.Drawing.Image)
-        Me.logoEscuela1.Location = New System.Drawing.Point(515, 274)
+        Me.logoEscuela1.Location = New System.Drawing.Point(479, 251)
         Me.logoEscuela1.Name = "logoEscuela1"
-        Me.logoEscuela1.Size = New System.Drawing.Size(245, 183)
+        Me.logoEscuela1.Size = New System.Drawing.Size(281, 227)
         Me.logoEscuela1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.logoEscuela1.TabIndex = 2
         Me.logoEscuela1.TabStop = False
@@ -202,7 +202,7 @@ Partial Class menuinventario
         Me.Datos.Dock = System.Windows.Forms.DockStyle.Top
         Me.Datos.FlatAppearance.BorderSize = 0
         Me.Datos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Datos.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Datos.Font = New System.Drawing.Font("Raleway", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Datos.ForeColor = System.Drawing.Color.Black
         Me.Datos.Location = New System.Drawing.Point(0, 123)
         Me.Datos.Name = "Datos"
@@ -245,7 +245,7 @@ Partial Class menuinventario
         Me.ver.Dock = System.Windows.Forms.DockStyle.Top
         Me.ver.FlatAppearance.BorderSize = 0
         Me.ver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ver.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ver.Font = New System.Drawing.Font("Raleway", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ver.ForeColor = System.Drawing.Color.Black
         Me.ver.Location = New System.Drawing.Point(0, 48)
         Me.ver.Name = "ver"
