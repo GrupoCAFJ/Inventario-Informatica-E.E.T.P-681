@@ -39,5 +39,4 @@ Public Class inventariogeneral
         Panel7.BackColor = Color.White ' Color original '
     End Sub
 
-
 End Class
