@@ -29,10 +29,7 @@ Partial Class inventariogeneral
         Me.dgvResultados = New System.Windows.Forms.DataGridView()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ComboBoxFiltro = New System.Windows.Forms.ComboBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -47,8 +44,6 @@ Partial Class inventariogeneral
         CType(Me.dgvResultados, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel8.SuspendLayout()
         Me.Panel4.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel5.SuspendLayout()
@@ -87,11 +82,13 @@ Partial Class inventariogeneral
         '
         'dgvResultados
         '
+        Me.dgvResultados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgvResultados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.dgvResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvResultados.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvResultados.Location = New System.Drawing.Point(0, 0)
         Me.dgvResultados.Name = "dgvResultados"
+        Me.dgvResultados.RowHeadersVisible = False
         Me.dgvResultados.Size = New System.Drawing.Size(749, 582)
         Me.dgvResultados.TabIndex = 5
         '
@@ -106,53 +103,20 @@ Partial Class inventariogeneral
         '
         'Panel4
         '
-        Me.Panel4.Controls.Add(Me.TextBox1)
-        Me.Panel4.Controls.Add(Me.Panel6)
+        Me.Panel4.Controls.Add(Me.ComboBoxFiltro)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(351, 118)
         Me.Panel4.TabIndex = 4
         '
-        'TextBox1
+        'ComboBoxFiltro
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(145, 41)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(119, 38)
-        Me.TextBox1.TabIndex = 4
-        '
-        'Panel6
-        '
-        Me.Panel6.Controls.Add(Me.Label2)
-        Me.Panel6.Controls.Add(Me.PictureBox1)
-        Me.Panel6.Location = New System.Drawing.Point(20, 41)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(119, 37)
-        Me.Panel6.TabIndex = 4
-        '
-        'Label2
-        '
-        Me.Label2.Font = New System.Drawing.Font("Raleway", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(0, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(87, 38)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Buscar"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(83, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(36, 38)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 3
-        Me.PictureBox1.TabStop = False
+        Me.ComboBoxFiltro.FormattingEnabled = True
+        Me.ComboBoxFiltro.Location = New System.Drawing.Point(56, 53)
+        Me.ComboBoxFiltro.Name = "ComboBoxFiltro"
+        Me.ComboBoxFiltro.Size = New System.Drawing.Size(199, 21)
+        Me.ComboBoxFiltro.TabIndex = 5
         '
         'Panel3
         '
@@ -171,13 +135,13 @@ Partial Class inventariogeneral
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(464, 118)
+        Me.Panel2.Size = New System.Drawing.Size(351, 118)
         Me.Panel2.TabIndex = 6
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Raleway Medium", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(109, 38)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(54, 32)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(242, 55)
         Me.Label1.TabIndex = 6
@@ -203,7 +167,7 @@ Partial Class inventariogeneral
         '
         'Label3
         '
-        Me.Label3.Font = New System.Drawing.Font("Raleway", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(95, 43)
@@ -252,9 +216,6 @@ Partial Class inventariogeneral
         CType(Me.dgvResultados, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel8.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
-        Me.Panel6.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
@@ -269,16 +230,13 @@ Partial Class inventariogeneral
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Button1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents dgvResultados As DataGridView
-    Friend WithEvents Panel6 As Panel
-    Friend WithEvents Label2 As Label
     Friend WithEvents Panel7 As Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel9 As Panel
     Friend WithEvents Panel8 As Panel
+    Friend WithEvents ComboBoxFiltro As ComboBox
 End Class

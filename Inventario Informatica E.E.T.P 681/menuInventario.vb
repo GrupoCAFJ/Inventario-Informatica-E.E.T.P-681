@@ -91,19 +91,16 @@ Public Class menuinventario
 
     '-----------------------------------------------------------------------------------------------------------'
 
-    'Ocultar el menu/mostrar el menu'
-    Private Sub hidenSubmenu()
-        InventarioSubMenu.Visible = False
-        SubMenuDatos.Visible = False
+    'Ocultar botones'
+    Private Sub OcultarBotones()
+        BotonInventario.Visible = False
+        BotonModificarDatos.Visible = False
+        BotonCargarDatos.Visible = False
     End Sub
-
-    Private Sub showSubmenu(submenu As Panel)
-        If submenu.Visible = False Then
-            hidenSubmenu()
-            submenu.Visible = True
-        Else
-            submenu.Visible = False
-        End If
+    Public Sub MostrarBotones()
+        BotonInventario.Visible = True
+        BotonModificarDatos.Visible = True
+        BotonCargarDatos.Visible = True
     End Sub
 
     '------------------------------------------------------------------------------------------------------------------------------'
@@ -127,32 +124,26 @@ Public Class menuinventario
 
     '------------------------------------------------------------------------------------------------------------------------------'
 
-    Private Sub ver_Click(sender As Object, e As EventArgs) Handles ver.Click
-        showSubmenu(InventarioSubMenu)
-    End Sub
+    'Botones del menu'
 
-    Private Sub VerInventarioGeneral_Click(sender As Object, e As EventArgs) Handles verinventariogeneral.Click
+    Private Sub BottonInventario_Click(sender As Object, e As EventArgs) Handles BotonInventario.Click
         Dim verinventariogeneral As New inventariogeneral()
         verinventariogeneral.FormPadre = Me
         openform(verinventariogeneral)
-        hidenSubmenu()
-    End Sub
-    Private Sub CargarDatos_Click(sender As Object, e As EventArgs) Handles Datos.Click
-        showSubmenu(SubMenuDatos)
+        OcultarBotones()
     End Sub
 
-    Private Sub Cargar_Click(sender As Object, e As EventArgs) Handles Cargar.Click
+    Private Sub BottonModificarDatos_Click(sender As Object, e As EventArgs) Handles BotonModificarDatos.Click
+
+    End Sub
+
+    Private Sub BottonCargarDatos_Click(sender As Object, e As EventArgs) Handles BotonCargarDatos.Click
         Dim cargardatos As New cargardatos()
         cargardatos.FormPadre = Me
         openform(cargardatos)
-        hidenSubmenu()
+        OcultarBotones()
     End Sub
 
 
-    Private Sub Modificar_Click(sender As Object, e As EventArgs) Handles Modificar.Click
-        Dim modificar As New modificar()
-        modificar.FormPadre = Me
-        openform(modificar)
-        hidenSubmenu()
-    End Sub
+    '------------------------------------------------------------------------------------------------------------------------------'
 End Class
