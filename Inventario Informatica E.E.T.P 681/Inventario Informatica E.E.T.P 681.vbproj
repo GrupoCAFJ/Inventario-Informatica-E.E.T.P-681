@@ -138,10 +138,10 @@
       <DependentUpon>menuInventario.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="inventario.Designer.vb">
-      <DependentUpon>inventario.vb</DependentUpon>
+    <Compile Include="inventariogeneral.Designer.vb">
+      <DependentUpon>inventariogeneral.vb</DependentUpon>
     </Compile>
-    <Compile Include="inventario.vb">
+    <Compile Include="inventariogeneral.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="modificar.Designer.vb">
@@ -174,8 +174,8 @@
     <EmbeddedResource Include="menuInventario.resx">
       <DependentUpon>menuInventario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="inventario.resx">
-      <DependentUpon>inventario.vb</DependentUpon>
+    <EmbeddedResource Include="inventariogeneral.resx">
+      <DependentUpon>inventariogeneral.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modificar.resx">
       <DependentUpon>modificar.vb</DependentUpon>

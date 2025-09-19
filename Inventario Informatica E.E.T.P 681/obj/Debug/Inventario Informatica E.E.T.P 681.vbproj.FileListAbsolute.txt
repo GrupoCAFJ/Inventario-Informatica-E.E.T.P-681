@@ -20,13 +20,7 @@ C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventa
 C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.pdb
 C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Inventario Informatica E.E.T.P 681.xml
 C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.AssemblyReference.cache
-C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.Form1.resources
 C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariogeneral.resources
-C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariomedioteca.resources
-C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalaeste.resources
-C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalanorte.resources
-C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosalavirgi.resources
-C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.inventariosum.resources
 C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.Resources.resources
 C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.GenerateResource.cache
 C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario Informatica E.E.T.P 681.vbproj.CoreCompileInputs.cache
@@ -84,3 +78,39 @@ C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventa
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\augus\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventar.4CC0A8E5.Up2Date
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Google.Protobuf.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\MySql.Data.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Buffers.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.IO.Pipelines.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Memory.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\ZstdSharp.dll
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Google.Protobuf.pdb
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Google.Protobuf.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\MySql.Data.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Buffers.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.IO.Pipelines.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Memory.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.cargardatos.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.menuinventario.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventario_Informatica_E.E.T.P_681.modificar.resources
+C:\Users\salan\source\repos\GrupoCAFJ\Inventario-Informatica-E.E.T.P-681\Inventario Informatica E.E.T.P 681\obj\Debug\Inventar.4CC0A8E5.Up2Date
