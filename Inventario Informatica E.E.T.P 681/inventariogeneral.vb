@@ -21,6 +21,8 @@ Public Class inventariogeneral
 
         ' Aplicar filtros iniciales
         AplicarFiltros()
+
+
     End Sub
 
     Private Sub AplicarFiltros()
@@ -87,7 +89,83 @@ Public Class inventariogeneral
             If conexion.State = ConnectionState.Open Then conexion.Close()
         End Try
     End Sub
+
     '------------------------------------------------------------------------------------------------------------------------------'
+
+    'Modificar datos'
+    ' Variables globales para poder usarlas en todo el form
+    Private conn As MySqlConnection
+    Private da As MySqlDataAdapter
+    Private dt As DataTable
+    Private Sub CargarInventario()
+        Try
+            conn = New MySqlConnection("server=localhost;database=inventarioescuela;user id=root;password=escuela;")
+            conn.Open()
+
+            Dim query As String = "
+            SELECT m.ID_MATERIAL,
+                   m.NOMBRE,
+                   m.TIPO,
+                   a.NOMBRE AS UBICACION,
+                   s.NOMBRE AS SALA,
+                   ma.CANTIDAD
+            FROM material m
+            JOIN material_almacenamiento ma ON m.ID_MATERIAL = ma.ID_MATERIAL
+            JOIN almacenamiento a ON ma.ID_ALMACENAMIENTO = a.ID_ALMACENAMIENTO
+            JOIN sala s ON a.ID_SALA = s.ID_SALA
+        "
+
+            da = New MySqlDataAdapter(query, conn)
+            dt = New DataTable()
+            da.Fill(dt)
+
+            dgvResultados.DataSource = dt
+            dgvResultados.ReadOnly = False
+            dgvResultados.AllowUserToAddRows = True
+            dgvResultados.AllowUserToDeleteRows = True
+
+        Catch ex As Exception
+            MessageBox.Show("Error al cargar inventario: " & ex.Message)
+        Finally
+            If conn.State = ConnectionState.Open Then conn.Close()
+        End Try
+    End Sub
+
+
+    ' Botón para guardar cambios
+    Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnguardar.Click
+        Try
+            Dim cb As New MySqlCommandBuilder(da)
+            da.Update(dt)
+            MessageBox.Show("Cambios guardados correctamente.")
+        Catch ex As Exception
+            MessageBox.Show("Error al guardar cambios: " & ex.Message)
+        End Try
+    End Sub
+
+
+    '------------------------------------------------------------------------------------------------------------------------------'
+
+    'Barra de busqueda'
+    Private Sub BuscarInventario()
+        If dt Is Nothing Then Return ' Asegurarse que dt ya fue cargado
+
+        Dim texto As String = TextBoxBuscar.Text.Trim().Replace("'", "''")
+        Dim dv As New DataView(dt)
+
+        If texto <> "" Then
+            ' Asegurarse que los nombres coinciden con las columnas del DataTable
+            dv.RowFilter = String.Format(
+            "NOMBRE LIKE '%{0}%' OR TIPO LIKE '%{0}%' OR UBICACION LIKE '%{0}%' OR SALA LIKE '%{0}%'", texto)
+        End If
+
+        dgvResultados.DataSource = dv
+    End Sub
+
+
+    Private Sub TextBoxBuscar_TextChanged(sender As Object, e As EventArgs) Handles TextBoxBuscar.TextChanged
+        BuscarInventario()
+    End Sub
 
     'Filtros
     Private Sub ComboBoxFiltro_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxFiltro.SelectedIndexChanged
@@ -123,5 +201,6 @@ Public Class inventariogeneral
             conexion.Dispose()
         End If
     End Sub
+
     '------------------------------------------------------------------------------------------------------------------------------'
 End Class
