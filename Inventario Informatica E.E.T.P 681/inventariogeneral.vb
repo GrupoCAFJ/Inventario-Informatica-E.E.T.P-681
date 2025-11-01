@@ -1,12 +1,11 @@
 ﻿Imports System.Data.SqlClient
 Imports MySql.Data.MySqlClient
+Imports System.Data.SqlClient
 Public Class inventariogeneral
 
-    'Formlario padre
     Public Property FormPadre As menuinventario
-    '------------------------------------------------------------------------------------------------------------------------------'
 
-    'Conexcion con la base de datos para la busqueda en la base de datos'
+    ' Variables globales
     ' Definir la cadena de conexión (puedes moverla a app.config)
     Private connectionString As String = "server=localhost;database=inventarioescuela;user id=root;password=escuela;"
     Private conexion As MySqlConnection
@@ -21,7 +20,6 @@ Public Class inventariogeneral
 
         ' Aplicar filtros iniciales
         AplicarFiltros()
-
 
     End Sub
 
@@ -79,7 +77,6 @@ Public Class inventariogeneral
             Dim da As New MySqlDataAdapter(query, conexion)
             Dim dt As New DataTable
             da.Fill(dt)
-            dgvResultados.DataSource = dt
 
         Catch ex As MySqlException
             MessageBox.Show("Error al conectar con la base de datos: " & ex.Message)
@@ -126,8 +123,6 @@ Public Class inventariogeneral
 
         Catch ex As Exception
             MessageBox.Show("Error al cargar inventario: " & ex.Message)
-        Finally
-            If conn.State = ConnectionState.Open Then conn.Close()
         End Try
     End Sub
 
@@ -142,10 +137,7 @@ Public Class inventariogeneral
             MessageBox.Show("Error al guardar cambios: " & ex.Message)
         End Try
     End Sub
-
-
     '------------------------------------------------------------------------------------------------------------------------------'
-
     'Barra de busqueda'
     Private Sub BuscarInventario()
         If dt Is Nothing Then Return ' Asegurarse que dt ya fue cargado
@@ -161,7 +153,6 @@ Public Class inventariogeneral
 
         dgvResultados.DataSource = dv
     End Sub
-
 
     Private Sub TextBoxBuscar_TextChanged(sender As Object, e As EventArgs) Handles TextBoxBuscar.TextChanged
         BuscarInventario()
